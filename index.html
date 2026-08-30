@@ -3,33 +3,84 @@
     
     <head>
         <title>DROV 1</title>
+        <style type="text/css">
+            body {
+                color: aqua;
+                background-color: rgb(0, 0, 0);
+            }
+            #seccion1 {
+                font-size:40px ;
+                text-align: center;
+            
+            background-image: url(https://res.cloudinary.com/dmcvdsh4c/image/upload/v1731955523/iceebook/espacio/espacio-exterior-que-es-caracteristicas-composicion_bno85b.webp);
+            background-size: cover;
+            }
+            .planeta{
+                mix-blend-mode: normal;
+                width: 350px;
+                height: 350px;
+                border-radius: 50%;
+                transform:scale(1);
+                object-fit: cover;
+            }
+            #seccion2{
+                display: grid ;
+                grid-template-columns: auto auto;
+            }
+            .bloque1{
+                width:20%;
+            }
+        </style>
+        
     </head>
     <body>
-        <section>
-            <h1>galeria</h1>
+        <section id="seccion1">
+            <h1>Galeria</h1>
             <h2>animales del mundo</h2>
-            <img src = "tierra.jpg"/>
+            <img src = "tierra.jpg" class="planeta"/>
         </section>
 
 
 
-        <section> 
-            <img src = "aguila.jpg"/>
-            <p>agila</p>
-            <img src = "cebra.jpg"/>
-            <p>cebra</p>
-            <img src ="gato.jpg"/>
-            <p>gato</p>
-            <img src = "leon.jpg"/>
+        <section id="seccion2"> 
+            
+           
+            <div class="bloque1">
+                <img src = "aguila.jpg"/>
+                <p>agila</p>
+            </div>
+
+            <div class="bloque1">
+                <img src = "cebra.jpg"/>
+                 <p>cebra</p>
+             </div>
+
+             <div class="bloque1">
+                <img src ="gato.jpg"/>
+                <p>gato</p>
+            </div>
+            
+            <div class="bloque1">
+                <img src = "leon.jpg"/>
             <p>leon</p>
-            <img src="mono.jpg"/>
+        </div>
+            <div class="bloque1">
+                <img src="mono.jpg"/>
             <p>mono</p>
-            <img src="perro.jpg"/>
+        </div>
+            <div class="bloque1">
+                <img src="perro.jpg"/>
             <p>pero</p>
-            <img src="tigre.jpg"/>
+        </div>
+            <div class="bloque1">
+                <img src="tigre.jpg"/>
             <p>tigre</p>
-            <img src="vaca.jpg"/>
+        </div>
+            <div class="bloque1">
+                <img src="vaca.jpg"/>
             <p>vaca</p>
+        </div>
+            
         </section>
     </body>
 </html>
