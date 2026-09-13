@@ -106,3 +106,18 @@ footer {
 
     font-size: 13px;
 }
+/*prueba*/
+#seccion1 {
+    width: 95%;          /* En celulares ocupará casi toda la pantalla */
+    max-width: 1000px;   /* En computadoras no se estirará más de esto */
+    margin: 0 auto;      /* Lo mantiene centrado */
+    padding: 15px;       /* Margen interno para que el contenido no pegue al borde */
+    box-sizing: border-box; /* Evita que el padding rompa el tamaño */
+}
+#seccion1 img {
+    width: 100%;       /* Se adapta al ancho de su contenedor */
+    max-width: 100%;   /* No permite que se desborde */
+    height: auto;      /* Mantiene la proporción de la foto sin deformarse */
+    display: block;
+    margin-bottom: 15px; /* Separa las imágenes del texto inferior */
+}
