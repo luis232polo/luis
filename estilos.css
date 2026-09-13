@@ -106,12 +106,3 @@ footer {
 
     font-size: 13px;
 }
-aside {
-    width: 100px;
-    border: 4px solid rgb(241, 232, 232);
-    padding: 5px;
-}
-
-aside blockquote {
-    margin: 0 auto;
-}
